@@ -1,0 +1,144 @@
+/*
+colors:
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+.logo img {
+  width: 8%;
+  height: 8%;
+  display: block;
+}
+
+.primary {
+  position: absolute;
+  left: 10%;
+  top: 5px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+.primary-main {
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Playfair Display", serif;
+  color: rgb(122, 153, 60);
+}
+.primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+ul {
+  display: inline;
+}
+
+.navBar {
+  position: absolute;
+  /* position: absolute;
+  left: 500px; */
+  /* display: inline-block; */
+  left: 60%;
+  top: 20px;
+}
+
+.navBar a {
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 2px;
+}
+
+/* .navBar a:hover {
+} */
+
+nav ul li a {
+  display: inline;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+.desc {
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.desc button {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 20px 51px;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 20px;
+  margin-left: 250px;
+  filter: hue-rotate(0deg);
+  border: 2px solid #fffffff6;
+  transition: all 0.1s linear;
+  background-color: #c3c55f8f;
+}
+
+.desc p {
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  border-style: ridge;
+}
+
+header {
+  margin-top: 0%;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(to top, #705f278f, #c3c55f8f),
+    url("../img/headerbackground.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 38%, 100% 50%, 50% 80%, 0 50%, 0 0, 100% 0);
+}
