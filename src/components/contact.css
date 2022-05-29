@@ -1,0 +1,17 @@
+.contact-heading {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(122, 153, 60);
+}
+
+.contact-heading h1 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact-heading p {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
